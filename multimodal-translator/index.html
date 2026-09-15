@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Traductor Inteligente Multimodal</title>
+
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    >
+
+    <!-- CSS propio -->
+    <link
+        rel="stylesheet"
+        href="./css/styles.css"
+    >
+</head>
+
+<body>
+
+    <!-- ==========================================
+         NAVBAR
+    =========================================== -->
+    <nav class="navbar navbar-expand-lg navbar-dark main-navbar">
+        <div class="container">
+
+            <a
+                class="navbar-brand d-flex align-items-center gap-2"
+                href="#"
+            >
+                <div class="brand-icon">
+                    <i class="bi bi-translate"></i>
+                </div>
+
+                <div>
+                    <span class="brand-title">
+                        Multimodal Translator
+                    </span>
+
+                    <small class="brand-subtitle d-block">
+                        Español ↔ Inglés
+                    </small>
+                </div>
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar"
+                aria-expanded="false"
+                aria-label="Abrir navegación"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div
+                class="collapse navbar-collapse"
+                id="mainNavbar"
+            >
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link active"
+                            href="#traductor"
+                        >
+                            Traductor
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="#privacidad"
+                        >
+                            Privacidad
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="#acerca"
+                        >
+                            Acerca de
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ==========================================
+         HERO
+    =========================================== -->
+    <header class="hero-section">
+        <div class="container">
+
+            <div class="row align-items-center g-4">
+
+                <div class="col-lg-7">
+
+                    <span class="hero-badge">
+                        <i class="bi bi-stars"></i>
+                        Inteligencia Artificial
+                    </span>
+
+                    <h1 class="hero-title">
+                        Traducción inteligente
+                        <span>multimodal</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Traduce contenido entre español e inglés utilizando
+                        texto conversacional, audio, documentos e imágenes
+                        desde una sola plataforma.
+                    </p>
+
+                    <div class="hero-features">
+
+                        <span>
+                            <i class="bi bi-check-circle-fill"></i>
+                            Español ↔ Inglés
+                        </span>
+
+                        <span>
+                            <i class="bi bi-check-circle-fill"></i>
+                            4 modalidades
+                        </span>
+
+                        <span>
+                            <i class="bi bi-check-circle-fill"></i>
+                            Inteligencia Artificial
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-5">
+
+                    <div class="hero-visual">
+
+                        <div class="language-card">
+                            <span class="language-flag">
+                                🇲🇽
+                            </span>
+
+                            <div>
+                                <small>Idioma</small>
+                                <strong>Español</strong>
+                            </div>
+                        </div>
+
+                        <div class="translation-arrow">
+                            <i class="bi bi-arrow-left-right"></i>
+                        </div>
+
+                        <div class="language-card">
+                            <span class="language-flag">
+                                🇺🇸
+                            </span>
+
+                            <div>
+                                <small>Language</small>
+                                <strong>English</strong>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ==========================================
+         APLICACIÓN
+    =========================================== -->
+    <main
+        class="main-content"
+        id="traductor"
+    >
+
+        <div class="container">
+
+            <!-- Idiomas -->
+            <section class="language-selector">
+
+                <div class="language-selector-content">
+
+                    <div class="language-option">
+                        <label for="sourceLanguage">
+                            Idioma de origen
+                        </label>
+
+                        <select
+                            id="sourceLanguage"
+                            class="form-select"
+                        >
+                            <option value="auto">
+                                Detectar automáticamente
+                            </option>
+
+                            <option value="es">
+                                🇲🇽 Español
+                            </option>
+
+                            <option value="en">
+                                🇺🇸 Inglés
+                            </option>
+                        </select>
+                    </div>
+
+
+                    <button
+                        type="button"
+                        class="swap-button"
+                        id="swapLanguages"
+                        title="Intercambiar idiomas"
+                    >
+                        <i class="bi bi-arrow-left-right"></i>
+                    </button>
+
+
+                    <div class="language-option">
+                        <label for="targetLanguage">
+                            Idioma de destino
+                        </label>
+
+                        <select
+                            id="targetLanguage"
+                            class="form-select"
+                        >
+                            <option value="en">
+                                🇺🇸 Inglés
+                            </option>
+
+                            <option value="es">
+                                🇲🇽 Español
+                            </option>
+                        </select>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ======================================
+                 MODALIDADES
+            ======================================= -->
+            <section class="translator-panel">
+
+                <div class="section-heading">
+                    <div>
+                        <span class="section-label">
+                            Selecciona una modalidad
+                        </span>
+
+                        <h2>
+                            ¿Qué deseas traducir?
+                        </h2>
+                    </div>
+
+                    <div class="service-status">
+                        <span class="status-dot"></span>
+                        Interfaz lista
+                    </div>
+                </div>
+
+
+                <!-- Navegación de modalidades -->
+                <div class="mode-tabs">
+
+                    <button
+                        class="mode-tab active"
+                        data-mode="chat"
+                        type="button"
+                    >
+                        <i class="bi bi-chat-dots"></i>
+
+                        <span>
+                            Chat
+                        </span>
+                    </button>
+
+
+                    <button
+                        class="mode-tab"
+                        data-mode="audio"
+                        type="button"
+                    >
+                        <i class="bi bi-mic"></i>
+
+                        <span>
+                            Audio
+                        </span>
+                    </button>
+
+
+                    <button
+                        class="mode-tab"
+                        data-mode="documents"
+                        type="button"
+                    >
+                        <i class="bi bi-file-earmark-text"></i>
+
+                        <span>
+                            Documentos
+                        </span>
+                    </button>
+
+
+                    <button
+                        class="mode-tab"
+                        data-mode="images"
+                        type="button"
+                    >
+                        <i class="bi bi-image"></i>
+
+                        <span>
+                            Imágenes
+                        </span>
+                    </button>
+
+                </div>
+
+
+                <!-- ==================================
+                     CHAT
+                =================================== -->
+                <div
+                    class="mode-content active"
+                    id="mode-chat"
+                >
+
+                    <div class="module-header">
+
+                        <div class="module-icon">
+                            <i class="bi bi-chat-dots"></i>
+                        </div>
+
+                        <div>
+                            <h3>
+                                Conversación bilingüe
+                            </h3>
+
+                            <p>
+                                Conversa en español e inglés y mantén visible
+                                el contexto completo de la conversación.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="chat-container">
+
+                        <div
+                            class="chat-messages"
+                            id="chatMessages"
+                        >
+
+                            <div class="empty-state">
+
+                                <i class="bi bi-chat-square-text"></i>
+
+                                <h4>
+                                    Inicia una conversación
+                                </h4>
+
+                                <p>
+                                    Los mensajes originales y sus traducciones
+                                    aparecerán aquí.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="chat-input-container">
+
+                            <textarea
+                                id="chatInput"
+                                class="form-control"
+                                rows="3"
+                                maxlength="2000"
+                                placeholder="Escribe un mensaje..."
+                            ></textarea>
+
+                            <div class="chat-input-footer">
+
+                                <span
+                                    class="character-counter"
+                                    id="characterCounter"
+                                >
+                                    0 / 2000
+                                </span>
+
+                                <button
+                                    type="button"
+                                    class="btn-primary-custom"
+                                    id="sendMessage"
+                                >
+                                    <i class="bi bi-send"></i>
+                                    Traducir y enviar
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ==================================
+                     AUDIO
+                =================================== -->
+                <div
+                    class="mode-content"
+                    id="mode-audio"
+                >
+
+                    <div class="module-header">
+
+                        <div class="module-icon">
+                            <i class="bi bi-mic"></i>
+                        </div>
+
+                        <div>
+                            <h3>
+                                Traducción de audio
+                            </h3>
+
+                            <p>
+                                Carga un archivo de audio para obtener la
+                                transcripción, traducción y reproducción
+                                del resultado.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="upload-zone">
+
+                        <i class="bi bi-cloud-arrow-up upload-icon"></i>
+
+                        <h4>
+                            Carga un archivo de audio
+                        </h4>
+
+                        <p>
+                            Selecciona o arrastra un archivo compatible.
+                        </p>
+
+                        <input
+                            type="file"
+                            id="audioFile"
+                            accept="audio/*"
+                            hidden
+                        >
+
+                        <button
+                            type="button"
+                            class="btn-secondary-custom"
+                            id="selectAudio"
+                        >
+                            <i class="bi bi-folder2-open"></i>
+                            Seleccionar audio
+                        </button>
+
+                        <small>
+                            Los formatos admitidos se mostrarán aquí
+                            cuando configuremos el procesamiento.
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ==================================
+                     DOCUMENTOS
+                =================================== -->
+                <div
+                    class="mode-content"
+                    id="mode-documents"
+                >
+
+                    <div class="module-header">
+
+                        <div class="module-icon">
+                            <i class="bi bi-file-earmark-text"></i>
+                        </div>
+
+                        <div>
+                            <h3>
+                                Traducción de documentos
+                            </h3>
+
+                            <p>
+                                Traduce documentos conservando una presentación
+                                ordenada de su contenido.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="upload-zone">
+
+                        <i class="bi bi-file-earmark-arrow-up upload-icon"></i>
+
+                        <h4>
+                            Carga un documento
+                        </h4>
+
+                        <p>
+                            PDF, Word o archivo de texto.
+                        </p>
+
+                        <input
+                            type="file"
+                            id="documentFile"
+                            accept=".pdf,.docx,.txt"
+                            hidden
+                        >
+
+                        <button
+                            type="button"
+                            class="btn-secondary-custom"
+                            id="selectDocument"
+                        >
+                            <i class="bi bi-folder2-open"></i>
+                            Seleccionar documento
+                        </button>
+
+                        <div class="file-types">
+
+                            <span>
+                                PDF
+                            </span>
+
+                            <span>
+                                DOCX
+                            </span>
+
+                            <span>
+                                TXT
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ==================================
+                     IMÁGENES
+                =================================== -->
+                <div
+                    class="mode-content"
+                    id="mode-images"
+                >
+
+                    <div class="module-header">
+
+                        <div class="module-icon">
+                            <i class="bi bi-image"></i>
+                        </div>
+
+                        <div>
+                            <h3>
+                                Traducción de imágenes
+                            </h3>
+
+                            <p>
+                                Obtén y traduce el texto visible en fotografías,
+                                señalizaciones, menús, etiquetas o capturas.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="upload-zone">
+
+                        <i class="bi bi-images upload-icon"></i>
+
+                        <h4>
+                            Carga una imagen
+                        </h4>
+
+                        <p>
+                            Utiliza una imagen que contenga texto legible.
+                        </p>
+
+                        <input
+                            type="file"
+                            id="imageFile"
+                            accept="image/*"
+                            hidden
+                        >
+
+                        <button
+                            type="button"
+                            class="btn-secondary-custom"
+                            id="selectImage"
+                        >
+                            <i class="bi bi-folder2-open"></i>
+                            Seleccionar imagen
+                        </button>
+
+                        <small>
+                            JPG, JPEG, PNG y WEBP
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ======================================
+                 PRIVACIDAD
+            ======================================= -->
+            <section
+                class="privacy-card"
+                id="privacidad"
+            >
+
+                <div class="privacy-icon">
+                    <i class="bi bi-shield-check"></i>
+                </div>
+
+                <div>
+                    <h3>
+                        Privacidad y uso de Inteligencia Artificial
+                    </h3>
+
+                    <p>
+                        El contenido enviado mediante esta aplicación podrá
+                        ser procesado por servicios de Inteligencia Artificial.
+                        Evita cargar documentos, imágenes o audios que contengan
+                        información personal, confidencial o sensible.
+                    </p>
+                </div>
+
+            </section>
+
+
+            <!-- ======================================
+                 ACERCA DE
+            ======================================= -->
+            <section
+                class="about-section"
+                id="acerca"
+            >
+
+                <span class="section-label">
+                    Proyecto académico
+                </span>
+
+                <h2>
+                    Traductor Inteligente Multimodal
+                </h2>
+
+                <p>
+                    Aplicación Web diseñada para reducir barreras de idioma
+                    entre usuarios de México y Estados Unidos mediante
+                    traducción asistida por Inteligencia Artificial.
+                </p>
+
+            </section>
+
+        </div>
+    </main>
+
+
+    <!-- ==========================================
+         FOOTER
+    =========================================== -->
+    <footer class="main-footer">
+
+        <div class="container">
+
+            <div class="footer-content">
+
+                <div>
+                    <strong>
+                        Multimodal Translator
+                    </strong>
+
+                    <p>
+                        Traductor Inteligente Español ↔ Inglés
+                    </p>
+                </div>
+
+                <div class="footer-author">
+                    <span>
+                        Desarrollado por
+                    </span>
+
+                    <strong>
+                        Milton JA12
+                    </strong>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <span>
+                    Proyecto académico · 2026
+                </span>
+
+                <span>
+                    Inteligencia Artificial aplicada a TIC
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    ></script>
+
+    <!-- JavaScript -->
+    <script
+        type="module"
+        src="./js/app.js"
+    ></script>
+
+</body>
+</html>
