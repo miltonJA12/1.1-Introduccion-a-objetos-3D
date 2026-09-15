@@ -1,0 +1,54 @@
+{
+  "ejemplos": [
+    {
+      "principio_id": 1,
+      "principio": "No critique, no condene ni se queje",
+      "contexto": "Crítica a un empleado en la oficina.",
+      "situacion": "Un supervisor critica abiertamente a un trabajador por su comportamiento.",
+      "accion": "El supervisor utiliza un tono agresivo y lanza acusaciones.",
+      "resultado": "El empleado se siente desmotivado y resentido.",
+      "relacion_con_principio": "La crítica directa crea resentimiento y no soluciona el problema.",
+      "evidencia": "La crítica es inútil porque pone a la otra persona en la defensiva."
+    },
+    {
+      "principio_id": 2,
+      "principio": "Demuestre aprecio honrado y sincero",
+      "contexto": "Interacción con un anciano en su hogar.",
+      "situacion": "Una anciana muestra su casa orgullosamente.",
+      "accion": "Un visitante elogia su hogar y su trabajo.",
+      "resultado": "La anciana se siente valorada y dispuesta a regalarle un automóvil.",
+      "relacion_con_principio": "El aprecio sincero fortalece la relación y genera generosidad.",
+      "evidencia": "Aquel niño no tenía derecho a sentir que se le otorgaba valor."
+    },
+    {
+      "principio_id": 3,
+      "principio": "Escuche a los demás",
+      "contexto": "Conversación en una comida.",
+      "situacion": "Un botánico habla sobre plantas exóticas.",
+      "accion": "El interlocutor escucha atentamente.",
+      "resultado": "El botánico se siente valorado y comparte más información.",
+      "relacion_con_principio": "Escuchar genera una conexión genuina y fomenta la conversación.",
+      "evidencia": "Pocos seres humanos se libran de la implícita adulación que hay en el oyente absorto."
+    },
+    {
+      "principio_id": 4,
+      "principio": "Haga que la otra persona se sienta importante",
+      "contexto": "Elogio a un empleado.",
+      "situacion": "Un gerente elogia a un mecánico por su trabajo anterior.",
+      "accion": "El gerente le expresa verbalmente que es un excelente mecánico.",
+      "resultado": "El mecánico se siente motivado y mejora su rendimiento.",
+      "relacion_con_principio": "Hacer sentir importante a la persona mejora su actitud y desempeño.",
+      "evidencia": "Se puede lograr que la gente haga más y más cuando se les atribuye estima."
+    },
+    {
+      "principio_id": 5,
+      "principio": "Evite las discusiones",
+      "contexto": "Enfrentamiento con un cliente descontento.",
+      "situacion": "Un cliente iracundo quiere protestar sobre un producto.",
+      "accion": "El vendedor decide no discutir y escuchar al cliente.",
+      "resultado": "El cliente se calma y termina haciendo negocios.",
+      "relacion_con_principio": "Evitar la discusión permite una mejor resolución de conflictos.",
+      "evidencia": "La única forma de salir ganando en una discusión es evitándola."
+    }
+  ]
+}

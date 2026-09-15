@@ -1,0 +1,49 @@
+{
+  "base_conocimiento": [
+    {
+      "id": 1,
+      "principio": "No critique, no condene ni se queje",
+      "explicacion": "La crítica es inútil y genera resentimiento, por lo tanto, hay que evitarla.",
+      "problema_que_resuelve": "Desmotivación y resentimiento en las relaciones interpersonales.",
+      "ejemplo": "Un supervisor critica abiertamente a un trabajador por su comportamiento.",
+      "aplicacion_practica": "Utiliza un enfoque amable y comprensivo para abordar errores en lugar de criticar.",
+      "evidencia": "La crítica es inútil porque pone a la otra persona en la defensiva."
+    },
+    {
+      "id": 2,
+      "principio": "Demuestre aprecio honrado y sincero",
+      "explicacion": "Reconocer y elogiar los logros de los demás fortalece las relaciones.",
+      "problema_que_resuelve": "Sentimientos de desprecio y falta de conexión en las relaciones.",
+      "ejemplo": "Un visitante elogia el hogar de una anciana orgullosa de su trabajo.",
+      "aplicacion_practica": "Eloge sinceramente a tus colegas y amigos por sus logros para fortalecer sus vínculos.",
+      "evidencia": "Demostrar aprecio honrado y sincero no solo es agradable, sino que también produce resultados."
+    },
+    {
+      "id": 3,
+      "principio": "Escuche a los demás",
+      "explicacion": "Ser un buen oyente es crucial para establecer conexiones genuinas.",
+      "problema_que_resuelve": "Falta de comprensión y conexión en la comunicación.",
+      "ejemplo": "Un botánico habla sobre plantas exóticas y el interlocutor escucha atentamente.",
+      "aplicacion_practica": "Practica la escucha activa durante las conversaciones, evitando interrumpir.",
+      "evidencia": "Anime a los demás a que hablen de sí mismos."
+    },
+    {
+      "id": 4,
+      "principio": "Haga que la otra persona se sienta importante",
+      "explicacion": "Generar un sentimiento de importancia en los demás facilita la influencia y la cooperación.",
+      "problema_que_resuelve": "Desmotivación y desinterés en el trabajo.",
+      "ejemplo": "Un gerente elogia a un mecánico por su trabajo anterior, haciendo que se sienta valorado.",
+      "aplicacion_practica": "Reconoce públicamente los logros de tus compañeros para elevar su autoestima.",
+      "evidencia": "Permita que la otra persona salve su propio prestigio."
+    },
+    {
+      "id": 5,
+      "principio": "Evite las discusiones",
+      "explicacion": "Las discusiones suelen ser infructuosas y es mejor evitar el conflicto directo.",
+      "problema_que_resuelve": "Escaladas de conflictos y relaciones dañadas.",
+      "ejemplo": "Un cliente iracundo quiere protestar sobre un producto y el vendedor decide no discutir.",
+      "aplicacion_practica": "Al enfrentar un desacuerdo, permanece calmado y busca comprender la perspectiva de la otra persona.",
+      "evidencia": "La única forma de salir ganando en una discusión es evitándola."
+    }
+  ]
+}

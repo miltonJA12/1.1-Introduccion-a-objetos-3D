@@ -1,0 +1,134 @@
+{
+  "preguntas": [
+    {
+      "pregunta_id": 1,
+      "pregunta": "¿Cuál es la mejor manera de abordar un desacuerdo para lograr una resolución positiva?",
+      "opciones": [
+        {
+          "opcion": "A",
+          "texto": "Criticar abiertamente a la otra persona."
+        },
+        {
+          "opcion": "B",
+          "texto": "Comenzar con elogios y encontrar puntos de acuerdo."
+        },
+        {
+          "opcion": "C",
+          "texto": "Ignorar el desacuerdo y cambiar de tema."
+        },
+        {
+          "opcion": "D",
+          "texto": "Decirle a la otra persona que está equivocada."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "Comenzar con elogios y encontrar puntos en común suaviza la situación y permite una discusión más amena.",
+      "principio_relacionado": "Empiece en forma amigable.",
+      "evidencia": "Elogiar antes de hablar de los errores hace que él camine con mayor tranquilidad."
+    },
+    {
+      "pregunta_id": 2,
+      "pregunta": "¿Por qué es importante mostrar aprecio sincero hacia los demás?",
+      "opciones": [
+        {
+          "opcion": "A",
+          "texto": "Porque la adulación genera buenos sentimientos."
+        },
+        {
+          "opcion": "B",
+          "texto": "Porque el aprecio sincero puede motivar y mejorar actitudes."
+        },
+        {
+          "opcion": "C",
+          "texto": "Porque es la única forma de recibir atención."
+        },
+        {
+          "opcion": "D",
+          "texto": "Porque todos esperan elogios constantemente."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "El aprecio sincero estimula el deseo de mejorar y fomenta un ambiente positivo y productivo.",
+      "principio_relacionado": "Demuestre aprecio honrado y sincero.",
+      "evidencia": "Los elogios son como la luz del sol para el espíritu humano; no podemos florecer y crecer sin él."
+    },
+    {
+      "pregunta_id": 3,
+      "pregunta": "¿Qué estrategia sugiere Carnegie para evitar conflictos en una discusión?",
+      "opciones": [
+        {
+          "opcion": "A",
+          "texto": "Escuchar activamente y encontrar puntos en común."
+        },
+        {
+          "opcion": "B",
+          "texto": "Hablar sin parar sobre su punto de vista."
+        },
+        {
+          "opcion": "C",
+          "texto": "Evitar la conversación."
+        },
+        {
+          "opcion": "D",
+          "texto": "Acusar a la otra persona de ser errónea."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "Escuchar y encontrar puntos en común ayuda a desescalar la tensión y fomenta la cooperación.",
+      "principio_relacionado": "Sea un buen oyente.",
+      "evidencia": "La única forma de salir ganando de una discusión es evitándola."
+    },
+    {
+      "pregunta_id": 4,
+      "pregunta": "¿Cómo se puede hacer que una persona se sienta satisfecha al cumplir con un pedido?",
+      "opciones": [
+        {
+          "opcion": "A",
+          "texto": "Mostrando la importancia del pedido y su relación con su reputación."
+        },
+        {
+          "opcion": "B",
+          "texto": "Exigiendo el cumplimiento inmediato."
+        },
+        {
+          "opcion": "C",
+          "texto": "Dando órdenes directas sin más."
+        },
+        {
+          "opcion": "D",
+          "texto": "Haciendo constantemente recordatorios sobre el pedido."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "Al resaltar cómo el pedido beneficia a la otra persona, se genera un deseo de cooperar y una sensación de importancia.",
+      "principio_relacionado": "Procure que la otra persona se sienta satisfecha de hacer lo que usted sugiere.",
+      "evidencia": "Es mucho más provechoso e interesante mirar las cosas desde el punto de vista del interlocutor."
+    },
+    {
+      "pregunta_id": 5,
+      "pregunta": "¿Cuál es la regla esencial al corregir los errores de los demás según Carnegie?",
+      "opciones": [
+        {
+          "opcion": "A",
+          "texto": "Criticar abiertamente."
+        },
+        {
+          "opcion": "B",
+          "texto": "Permitir que la otra persona se sienta culpable."
+        },
+        {
+          "opcion": "C",
+          "texto": "Hablar de sus propios errores primero."
+        },
+        {
+          "opcion": "D",
+          "texto": "Exigir un cambio inmediato."
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "Hablar de sus propios errores antes de criticar los de otros suaviza la crítica y ayuda a mantener su dignidad.",
+      "principio_relacionado": "Hable de sus propios errores antes de criticar los de los demás.",
+      "evidencia": "Es más probable que la gente haga lo que usted sugiere cuando se usa la crítica indirectamente."
+    }
+  ]
+}

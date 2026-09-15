@@ -1,0 +1,57 @@
+{
+  "clasificacion_individual": [
+    {
+      "idea_id": 1,
+      "categoria": "Gestión de Conflictos",
+      "justificacion": "Evitar la crítica ayuda a prevenir el resentimiento y las disputas innecesarias."
+    },
+    {
+      "idea_id": 2,
+      "categoria": "Comunicación",
+      "justificacion": "Demostrar aprecio fortalece las relaciones interpersonales y mejora la interacción."
+    },
+    {
+      "idea_id": 3,
+      "categoria": "Comunicación",
+      "justificacion": "Escuchar activamente es fundamental para establecer conexiones genuinas con los demás."
+    },
+    {
+      "idea_id": 4,
+      "categoria": "Persuasión",
+      "justificacion": "Hacer sentir a los demás importantes fomenta su cooperación y disposición a aceptar influencias."
+    },
+    {
+      "idea_id": 5,
+      "categoria": "Gestión de Conflictos",
+      "justificacion": "Evitar discusiones directas previene el conflicto y la resistencia, buscando una resolución más efectiva."
+    }
+  ],
+  "resumen_estadistico": [
+    {
+      "categoria": "Liderazgo",
+      "frecuencia": 0,
+      "porcentaje": 0.0
+    },
+    {
+      "categoria": "Comunicación",
+      "frecuencia": 2,
+      "porcentaje": 40.0
+    },
+    {
+      "categoria": "Persuasión",
+      "frecuencia": 1,
+      "porcentaje": 20.0
+    },
+    {
+      "categoria": "Gestión de Conflictos",
+      "frecuencia": 2,
+      "porcentaje": 40.0
+    },
+    {
+      "categoria": "Desarrollo Personal",
+      "frecuencia": 0,
+      "porcentaje": 0.0
+    }
+  ],
+  "total_ideas_analizadas": 5
+}

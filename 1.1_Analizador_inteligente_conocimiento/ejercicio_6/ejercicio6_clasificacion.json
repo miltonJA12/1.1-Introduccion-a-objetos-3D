@@ -1,0 +1,84 @@
+{
+  "clasificaciones": [
+    {
+      "id": 1,
+      "situacion": "Un empleado se niega a colaborar con un nuevo proyecto porque siente que no tomaron en cuenta sus ideas.",
+      "categoria": "Relaciones Interpersonales",
+      "principio_recomendado": "Haga que la otra persona se sienta importante, y hágalo sinceramente.",
+      "justificacion": "El empleado se siente ignorado, lo que disminuye su deseo de colaborar. Resaltar la importancia de sus ideas podría mejorar su disposición.",
+      "evidencia": "‘Trate siempre de que la otra persona se sienta importante.’"
+    },
+    {
+      "id": 2,
+      "situacion": "Dos compañeros de trabajo discuten acaloradamente en medio de la oficina sobre de quién fue la culpa de un retraso.",
+      "categoria": "Resolución de Conflictos",
+      "principio_recomendado": "La única forma de salir ganando en una discusión es evitándola.",
+      "justificacion": "El desacuerdo acalorado indica que ambos están en defensa de sus posturas; sería mejor encontrar un enfoque para resolver la situación sin discutir.",
+      "evidencia": "‘La única forma de salir ganando de una discusión es evitándola.’"
+    },
+    {
+      "id": 3,
+      "situacion": "Un cliente llama muy enfadado exigiendo la devolución de su dinero por un servicio que no cumplió sus expectativas.",
+      "categoria": "Comunicación y Persuasión",
+      "principio_recomendado": "Empiece en forma amigable.",
+      "justificacion": "Comenzar la conversación de manera amistosa puede calmar al cliente enfadado y abrir la puerta a una solución.",
+      "evidencia": "‘Empiece en forma amigable.’"
+    },
+    {
+      "id": 4,
+      "situacion": "Un líder necesita dar retroalimentación a un colaborador cuyo rendimiento ha bajado significativamente este mes.",
+      "categoria": "Liderazgo y Gestión de Equipos",
+      "principio_recomendado": "Empiece con elogio y aprecio sincero.",
+      "justificacion": "Iniciar la conversación con elogios puede suavizar la crítica y hacer que el colaborador esté más receptivo a la retroalimentación.",
+      "evidencia": "‘Empiece con elogio y aprecio sincero.’"
+    },
+    {
+      "id": 5,
+      "situacion": "Un gerente quiere convencer a su equipo de adoptar un nuevo software sin generar resistencia al cambio.",
+      "categoria": "Comunicación y Persuasión",
+      "principio_recomendado": "Hable siempre de lo que interesa a los demás.",
+      "justificacion": "Al enfocarse en cómo el nuevo software beneficiará al equipo, el gerente puede facilitar la adopción y reducir la resistencia.",
+      "evidencia": "‘Hable siempre de lo que interesa a los demás.’"
+    },
+    {
+      "id": 6,
+      "situacion": "Un miembro del equipo llega constantemente tarde a las reuniones diarias interrumpiendo el flujo de trabajo.",
+      "categoria": "Liderazgo y Gestión de Equipos",
+      "principio_recomendado": "Haga preguntas en vez de dar órdenes.",
+      "justificacion": "Preguntar al miembro del equipo sobre sus dificultades puede ayudar a encontrar soluciones y a que él mismo vea la importancia de ser puntual.",
+      "evidencia": "‘Haga preguntas en vez de dar órdenes.’"
+    },
+    {
+      "id": 7,
+      "situacion": "Un profesional siente frustración porque sus colegas no lo escuchan durante las sesiones de lluvia de ideas.",
+      "categoria": "Relaciones Interpersonales",
+      "principio_recomendado": "Sea un buen oyente. Anime a los demás a que hablen de sí mismos.",
+      "justificacion": "Convertirse en un buen oyente puede ayudar al profesional a fomentar un ambiente en el que sus colegas se sientan más dispuestos a escuchar.",
+      "evidencia": "‘Sea un buen oyente. Anime a los demás a que hablen de sí mismos.’"
+    },
+    {
+      "id": 8,
+      "situacion": "Un supervisor cometió un error en un informe financiero y no sabe cómo comunicárselo a su superior.",
+      "categoria": "Liderazgo y Gestión de Equipos",
+      "principio_recomendado": "Si usted está equivocado, admítalo rápida y enfáticamente.",
+      "justificacion": "Admitir el error de manera honesta puede ayudar a mantener el respeto y la confianza con el superior.",
+      "evidencia": "‘Si usted está equivocado, admítalo rápida y enfáticamente.’"
+    },
+    {
+      "id": 9,
+      "situacion": "Un vendedor intenta cerrar un trato con un cliente difícil que siempre pone objeciones al precio.",
+      "categoria": "Comunicación y Persuasión",
+      "principio_recomendado": "Procure que la otra persona se sienta satisfecha de hacer lo que usted sugiere.",
+      "justificacion": "Al hacer que el cliente se sienta en control de la decisión, el vendedor puede facilitar la aceptación del precio.",
+      "evidencia": "‘Procure que la otra persona se sienta satisfecha de hacer lo que usted sugiere.’"
+    },
+    {
+      "id": 10,
+      "situacion": "Un empleado recibe un reconocimiento público pero su compañero directo se muestra resentido por ello.",
+      "categoria": "Relaciones Interpersonales",
+      "principio_recomendado": "Haga que la otra persona sienta que la idea es de ella.",
+      "justificacion": "El compañero resentido podría beneficiarse si se le hace sentir importante en relación al éxito mencionado.",
+      "evidencia": "‘Haga que la otra persona sienta que la idea es de ella.’"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "casos": [
+    {
+      "caso_id": 1,
+      "titulo": "Conflicto con un compañero",
+      "contexto": "Juan y Carlos son compañeros de trabajo en un proyecto importante y han tenido varios desacuerdos.",
+      "dilema": "Juan considera que Carlos es despreocupado por el proyecto y quiere confrontarlo.",
+      "alternativas": [
+        {
+          "opcion": "A",
+          "texto": "Hablar con Carlos de manera constructiva y expresarle su preocupación."
+        },
+        {
+          "opcion": "B",
+          "texto": "Criticar a Carlos frente a su supervisor."
+        },
+        {
+          "opcion": "C",
+          "texto": "Ignorar a Carlos y hacer el trabajo solo."
+        },
+        {
+          "opcion": "D",
+          "texto": "Hacer comentarios despectivos sobre Carlos a otros compañeros."
+        }
+      ],
+      "opcion_recomendada": "A",
+      "principio_relacionado": "No critique, no condene ni se queje",
+      "justificacion": "La crítica es inútil y genera resentimiento, por lo tanto, hay que evitarla."
+    },
+    {
+      "caso_id": 2,
+      "titulo": "Reconocimiento en el equipo",
+      "contexto": "El equipo de marketing está trabajando en una nueva campaña y Ana, una miembro del equipo, ha realizado un gran esfuerzo.",
+      "dilema": "El líder del equipo debe decidir si reconocer el trabajo de Ana o no.",
+      "alternativas": [
+        {
+          "opcion": "A",
+          "texto": "Elogiar públicamente a Ana por su esfuerzo."
+        },
+        {
+          "opcion": "B",
+          "texto": "Decidir no mencionar a Ana y enfocarse en el resultado final."
+        },
+        {
+          "opcion": "C",
+          "texto": "Criticar a Ana por no haber sido lo suficientemente creativa."
+        },
+        {
+          "opcion": "D",
+          "texto": "Reclamarle a Ana que trabaje más duro."
+        }
+      ],
+      "opcion_recomendada": "A",
+      "principio_relacionado": "Demuestre aprecio honrado y sincero",
+      "justificacion": "Reconocer y elogiar los logros de los demás fortalece las relaciones."
+    },
+    {
+      "caso_id": 3,
+      "titulo": "Estableciendo Conexiones",
+      "contexto": "Luis ha estado intentando conectar con una nueva compañera de trabajo, pero siente que ella está cerrada a la conversación.",
+      "dilema": "Luis no sabe cómo acercarse a ella para crear un ambiente amistoso.",
+      "alternativas": [
+        {
+          "opcion": "A",
+          "texto": "Hacerle preguntas sobre sus intereses y escuchar atentamente."
+        },
+        {
+          "opcion": "B",
+          "texto": "Hablar solo de sus propias experiencias."
+        },
+        {
+          "opcion": "C",
+          "texto": "Ignorar a la compañera y esperar que ella se acerque."
+        },
+        {
+          "opcion": "D",
+          "texto": "Crítica su falta de interés en socializar."
+        }
+      ],
+      "opcion_recomendada": "A",
+      "principio_relacionado": "Escuche a los demás",
+      "justificacion": "Ser un buen oyente es crucial para establecer conexiones genuinas."
+    },
+    {
+      "caso_id": 4,
+      "titulo": "Resolviendo un conflicto familiar",
+      "contexto": "María y su adolescente hija han estado en desacuerdo sobre las horas de salida de su hija.",
+      "dilema": "María quiere establecer reglas, pero su hija se siente incomprendida.",
+      "alternativas": [
+        {
+          "opcion": "A",
+          "texto": "Conversar con su hija y escuchar sus necesidades primero."
+        },
+        {
+          "opcion": "B",
+          "texto": "Imponerle restricciones sin escucharla."
+        },
+        {
+          "opcion": "C",
+          "texto": "Criticar a su hija por no entender las preocupaciones de su madre."
+        },
+        {
+          "opcion": "D",
+          "texto": "Quejarse con familiares sobre la situación."
+        }
+      ],
+      "opcion_recomendada": "A",
+      "principio_relacionado": "Haga que la otra persona se sienta importante",
+      "justificacion": "Generar un sentimiento de importancia en los demás facilita la influencia y la cooperación."
+    },
+    {
+      "caso_id": 5,
+      "titulo": "Mejorando relaciones laborales",
+      "contexto": "Pedro tiene que trabajar en un proyecto con alguien que ha estado mostrando poco compromiso.",
+      "dilema": "Pedro quiere motivar a su compañero, pero no sabe cómo abordarlo sin que se sienta atacado.",
+      "alternativas": [
+        {
+          "opcion": "A",
+          "texto": "Elogiar el trabajo previo de su compañero y preguntarle cómo pueden colaborar mejor."
+        },
+        {
+          "opcion": "B",
+          "texto": "Decirle directamente que no está actuando como se espera."
+        },
+        {
+          "opcion": "C",
+          "texto": "Ignorarlo y hacer el trabajo solo."
+        },
+        {
+          "opcion": "D",
+          "texto": "Discutir sobre su falta de liderazgo."
+        }
+      ],
+      "opcion_recomendada": "A",
+      "principio_relacionado": "Evite las discusiones",
+      "justificacion": "Las discusiones suelen ser infructuosas y es mejor evitar el conflicto directo."
+    }
+  ]
+}

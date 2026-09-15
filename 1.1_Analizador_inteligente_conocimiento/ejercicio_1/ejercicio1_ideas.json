@@ -1,0 +1,39 @@
+{
+  "ideas_principales": [
+    {
+      "id": 1,
+      "idea": "No critique, no condene ni se queje",
+      "explicacion": "La crítica es inútil y genera resentimiento, por lo tanto, hay que evitarla.",
+      "parte_documento": "Primera Parte, Regla 1",
+      "evidencia": "La crítica es inútil porque pone a la otra persona en la defensiva."
+    },
+    {
+      "id": 2,
+      "idea": "Demuestre aprecio honrado y sincero",
+      "explicacion": "Reconocer y elogiar los logros de los demás fortalece las relaciones.",
+      "parte_documento": "Segunda Parte, Regla 2",
+      "evidencia": "Demostrar aprecio honrado y sincero no solo es agradable, sino que también produce resultados."
+    },
+    {
+      "id": 3,
+      "idea": "Escuche a los demás",
+      "explicacion": "Ser un buen oyente es crucial para establecer conexiones genuinas.",
+      "parte_documento": "Segunda Parte, Regla 4",
+      "evidencia": "Anime a los demás a que hablen de sí mismos."
+    },
+    {
+      "id": 4,
+      "idea": "Haga que la otra persona se sienta importante",
+      "explicacion": "Generar un sentimiento de importancia en los demás facilita la influencia y la cooperación.",
+      "parte_documento": "Cuarta Parte, Regla 6",
+      "evidencia": "Permita que la otra persona salve su propio prestigio."
+    },
+    {
+      "id": 5,
+      "idea": "Evite las discusiones",
+      "explicacion": "Las discusiones suelen ser infructuosas y es mejor evitar el conflicto directo.",
+      "parte_documento": "Tercera Parte, Regla 1",
+      "evidencia": "La única forma de salir ganando en una discusión es evitándola."
+    }
+  ]
+}
